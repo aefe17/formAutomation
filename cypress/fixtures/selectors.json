@@ -1,0 +1,11 @@
+{
+  "multipleChoice": ".vd3tt",
+  "checkbox": ".uHMk6b",
+  "input": "input",
+  "paragraph": "textarea",
+  "timeInputs": ".freebirdFormviewerComponentsQuestionTimeTimeInputs",
+  "timeNumber": ".freebirdFormviewerComponentsQuestionTimeNumberEdit",
+  "gridColumnHeader": ".freebirdFormviewerComponentsQuestionGridColumnHeader",
+  "gridCell": ".freebirdFormviewerComponentsQuestionGridCell",
+  "buttons": ".lRwqcd"
+}

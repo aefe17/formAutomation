@@ -1,0 +1,55 @@
+{
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSf-fPeNw_vYYaAsbPPJBRc_A2SdM94rXUxSBBW2uyJLMk8Dtw/viewform",
+  "questions": [
+    {
+      "title": "¿Asiste usted a eventos de voluntariado?",
+      "type": "multipleChoice",
+      "answer": {
+        "pattern": "probabilistic",
+        "options": ["Sí", "No"],
+        "probabilities": [0.5, 0.5]
+      }
+    },
+
+    {
+      "title": "¿Por que vía se entera de los eventos para formar parte?",
+      "type": "multipleChoice",
+      "answer": {
+        "pattern": "probabilistic",
+        "options": ["Redes Sociales", "Medios publicitarios offline: anuncios de radio o televisivos, carteles, periódicos, revistas, etc.", "Plataformas especializadas para eventos.", "No me entero de los eventos."],
+        "probabilities": [0.25, 0.25, 0.25, 0.25]
+      }
+    },
+
+    {
+      "title": "¿Asistiría a estos eventos si tuviera la opción de ingresar desde una plataforma digital de manera más fácil?",
+      "type": "multipleChoice",
+      "answer": {
+        "pattern": "probabilistic",
+        "options": ["Sí", "No", "Tal vez"],
+        "probabilities": [0.33, 0.33, 0.33]
+      }
+    },
+
+    {
+      "title": "¿Desearía recibir informaciones sobre este tipo de eventos?",
+      "type": "multipleChoice",
+      "answer": {
+        "pattern": "probabilistic",
+        "options": ["Sí", "No", "Tal vez"],
+        "probabilities": [0.33, 0.33, 0.33]
+      }
+    },
+
+    {
+      "title": "¿Qué informaciones del evento desearía que la plataforma contenga (ejemplo: fecha, lugar, horario, organizadora)",
+      "type": "checkboxes",
+      "answer": {
+        "pattern": "probabilistic",
+        "options": ["Tiempo del Evento (Hora Inicio, Hora Fin)", "Fecha", "Requisitos", "Objetivo del Evento", "Lugar"],
+        "probabilities": [0.15, 0.15, 0.15, 0.15, 0.15]
+      },
+      "sectionEnd": true
+    }
+  ]
+}
